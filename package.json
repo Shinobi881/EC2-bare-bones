@@ -1,0 +1,10 @@
+{
+  "name": "ec2_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Muhsin Abdul-Musawwir <moose.techguy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
