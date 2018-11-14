@@ -27,11 +27,8 @@
  - e. Run `sudo su` to set yourself as the `root` or `super user`
  - f. Navigate the instance as you would from `Bash` on you Mac or a linux system
 ---
-### **Important Notes**
-1. Leaving instance running - if you want to stay within free tier usage for EC2 (and EBS) you shouldn't have more than 1 (t2.micro && volume) running, continuously (with launch defaults).
 
-2. You'll need to `stop` the `EC2` server and the `EBS` volume if you want to avoid charges
+### **Next Steps**
+1. [Serve and app on your EC2 instance][serve-app]
 
-3. Private key (`.pem` file) make sure to move this to your `~/.ssh` or other secure folder. You may have to run `chmod` again. `mv ~/Desktop/ec2_demo.pem ~/.ssh/ec2_demo.pem`
-
-4. It's a good practice to restrict `ssh` access to VPS to a specific ip. You can also, explore other security solutions
+[serve-app]
