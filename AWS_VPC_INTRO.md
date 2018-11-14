@@ -32,6 +32,6 @@
  - c. [Serve][ec2-serve]
  - d. [Wrap-up][ec2-wrap-up]
 
-[ec2-setup]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_SETUP.md
-[ec2-serve]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_SERVE.md
-[ec2-wrap-up]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_WRAP_UP.md
+[ec2-setup]: ./EC2_SETUP.md
+[ec2-serve]: ./EC2_SERVE.md
+[ec2-wrap-up]: ./EC2_WRAP_UP.md
