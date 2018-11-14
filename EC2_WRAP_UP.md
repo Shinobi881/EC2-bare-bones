@@ -1,4 +1,5 @@
-# Bare-Bones AWS VPS (EC2) Wrap-Up
+# EC2 Wrap-up
+*Cleanup and teardown of your EC2 instances*
 
 ### **1. Basic Security**
 *Move your public key and restrict network access to your server*

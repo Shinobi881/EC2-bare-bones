@@ -1,4 +1,5 @@
-# Bare-Bones AWS VPS (EC2) Demo
+# EC2 Setup
+*Setting up, initializing and connecting to you EC2 instance*
 
 ### **1. Create SSH Key**
 *- From `EC2 Dashboard` in the AWS console (click on the `EC2` link) -*
@@ -31,4 +32,4 @@
 ### **Next Steps**
 1. [Serve and app on your EC2 instance][serve-app]
 
-[serve-app]
+[serve-app]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_SERVE.md

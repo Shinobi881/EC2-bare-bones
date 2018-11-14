@@ -1,8 +1,9 @@
 # EC2 Web Server
+*Serving a Node app publicly, on your EC2 instance*
 
 ### *1. Install NodeJS*
 *From you ssh session in your EC2 make sure you are the root/super user (`sudo su`)*
- - a. Go here [Nodesource][install node on] and scroll to the section of `Node.js v10.x:`
+ - a. Go here [Nodesource][node-ubuntu] and scroll to the section of `Node.js v10.x:`
  - b. As the root user run the 2 commands under `# Using Debian, as root`
  - c. Test out some simple node commands to make sure everything was installed correctly
 
@@ -16,7 +17,6 @@
  - e. Start your server (see below):
   - `node index.js` - when you run `control + c` you app will no longer be accessible
   - Background Server - `node index.js & disown` => `control + c` (see below to kill background process)
- - 
  - f. Copy the public DNS from the `Connect To Your Instance` popup and paste into the browser
 
 
@@ -25,4 +25,8 @@
  - a. Run `lsof -i :80 (port server is running on)` - copy the `PID` from the output
  - b. Run `kill -9 [PID]` to kill the process running on that port
 
-[install node on]: https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
+### **Next Steps**
+1. [Cleaup and teardown][wrap-up]
+
+[wrap-up]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_WRAP_UP.md
+[node-ubuntu]: https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
