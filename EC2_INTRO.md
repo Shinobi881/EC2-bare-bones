@@ -1,19 +1,36 @@
 # AWS Virtual Private Cloud Demo Introduction
 
 ### **Definition of terms**
-- **Virtual Private Cloud (VPC)** - 
-  - we could consider this to describe cloud services in general but we'll use it interchangeably with *'virtual private server' (VPS)*, and AWS' *'elastic compute container' (EC2)* which is the **AWS** implementation of a 'VPS'. 
-  - In short, if I say *'VPC'*, *'VPS'*, *'EC2'* or *'container'* I'm talking about the same thing unless otherwise indicated.
+- **Virtulization**
+  - Let's keep it simple by saying virtualization is cloud resources that I connect to remotely
+
+  - There's **MUCH** more to it all but for the sake of simplicity if I use any of the terms below I'm talking about the same thing unless otherwise noted:
+  
+    -- **'VPC'** (Virtual Private Cloud)
+
+    -- **'VPS'** (Virtual Private Server or "cloud server")
+
+    -- **'EC2'** (Elastic Compute Cloud (AWS name for VPS))
+
+    -- **'VM'** (Virtual Machine)
+
+    -- **'container'** 
 
 ### **What is this all about**
-  - Some stuff I think will improve development experience for web developers across the spectrum.
-  - AWS has some great tools but sometime the documentation can rabbit hole you
+  - Some stuff I think will improve development experience for web developers across the stack
+  - AWS has some great tools but sometimes the documentation can rabbit hole you
   - There are some great AWS demos out there but this is targeted toward web developers
+  - There is a considerable amount of overlap with GCP, Azure, IBM, and other IaaS cloud providers
   - These are all meant to be as bare-bones and compartmentalized as possible, building toward more complex demos
+  - I'm still very much in love with Heroku but that's a whole series in itself
+
+---
 
 ### **Coverage -** *:latest*
 1. **AWS EC2 (Linux, Ubuntu)** - recommended minimum to setup, run and teardown
 2. **NodeJS** - running a Node app on you EC2 for the world to see (or not)
+
+---
 
 ### **Coverage -** *:backlog*
 1. **MongoDB** - running a database on and EC2 instance (for dev purposes)
@@ -22,14 +39,26 @@
 4. **Kubernetes** - composing apps and services with Kubernetes and other orchestration tools
 5. **Linux Servers** - deep diving into Linux servers, relevant to web developers
 
-### **Demos**
-*The documentation and videos are meant to go hand in hand. View them in-order the first time and then use as reference as needed*
-1. **AWS EC2** -
- - a. Intro - to be added
- - b. [Setup][ec2-setup]
- - c. [Serve][ec2-serve]
- - d. [Wrap-up][ec2-wrap-up]
+---
 
-[ec2-setup]: ./EC2_SETUP.md
-[ec2-serve]: ./EC2_SERVE.md
-[ec2-wrap-up]: ./EC2_WRAP_UP.md
+### **Demos:**
+*The documentation and videos are meant to go hand in hand. I recommend viewing them in-order the first time then reference as needed. However, you should still be able to jump modules if you feel comfortable.*
+
+---
+  - 1. [Intro to EC2][ec2-intro] <= (you are here)
+  - 2. [Spinning up][ec2-spin-up]
+  - 3. [Shutting down][ec2-shutdown]
+  - 4. [Restarting][ec2-shutdown]
+  - 5. [Connecting][ec2-connection]
+  - 6. [Deploying apps][ec2-deploy]
+  - 7. [Getting files into a cloud server][ec2-file-management]
+  - 8. [Basic security of a cloud server][ec2-security]
+
+[ec2-intro]: ./EC2_INTRO.md#definition-of-terms
+[ec2-spin-up]: ./EC2_SPIN_UP.md
+[ec2-shutdown]: ./EC2_SHUTDOWN.md
+[ec2-restart]: ./EC2_RESTART.md
+[ec2-connection]: ./EC2_CONNECTION.md.md
+[ec2-deploy]: ./EC2_DEPLOY.md
+[ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
+[ec2-security]: ./EC2_BASIC_SECURITY.md

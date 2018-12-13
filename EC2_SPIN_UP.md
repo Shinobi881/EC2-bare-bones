@@ -19,15 +19,6 @@
  - g. `Review and Launch` => `Launch`
  - h. On the `Select an existing key pair...` popup, make sure that `ec2_demo` is selected, `Launch Instances`
 ---
-### **3. Connect to server**
-*- Open a terminal instance on you local system -*
- - a. Get path to the `ec2_demo.pem` file and run `chmod 400 [path to file]`
- - b. From the EC2 Dashboard select the running instance and click `Connect`
- - c. From the popup copy the ssh command under `Example:`
- - b. Run `ssh -i "ec2_demo.pem" ubuntu@[Public DNS]`
- - e. Run `sudo su` to set yourself as the `root` or `super user`
- - f. Navigate the instance as you would from `Bash` on you Mac or a linux system
----
 
 ### **Next Steps**
 1. [Serve and app on your EC2 instance][serve-app]
