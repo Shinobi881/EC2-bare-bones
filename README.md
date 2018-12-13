@@ -24,7 +24,7 @@
 7. [Getting files into a cloud server][ec2-file-management]
 8. [Basic security of a cloud server][ec2-security]
 
-[ec2-intro]: ./EC2_INTRO.md#definition-of-terms
+[ec2-intro]: ./EC2_INTRO.md
 [ec2-spin-up]: ./EC2_SPIN_UP.md
 [ec2-shutdown]: ./EC2_SHUTDOWN.md
 [ec2-restart]: ./EC2_RESTART.md
