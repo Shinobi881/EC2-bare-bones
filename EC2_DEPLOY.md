@@ -35,12 +35,10 @@
 ### **Next Steps**
 *Now on to the really fun stuff*
 
-  - 1. [Deploying apps to a cloud server][ec2-deploy]
-  - 2. [Getting files into a cloud server][ec2-file-management]
-  - 4. [Let's get some basic security out of the way][ec2-security]
+  - 1. [Getting files into a cloud server][ec2-file-management]
+  - 2. [Let's get some basic security out of the way][ec2-security]
   - 3. [Wrapping-up][ec2-wrap-up]
 
-[ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
 [ec2-wrap-up]: ./EC2_WRAP_UP.md
