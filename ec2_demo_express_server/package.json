@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Muhsin Abdul-Musawwir <moose.techguy@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ec2_demo_index.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
   }
