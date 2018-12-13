@@ -18,7 +18,7 @@
 1. [Intro to EC2][ec2-intro]
 2. [Spinning up][ec2-spin-up]
 3. [Shutting down][ec2-shutdown]
-4. [Restarting][ec2-shutdown]
+4. [Restarting][ec2-restart]
 5. [Connecting][ec2-connection]
 6. [Deploying apps][ec2-deploy]
 7. [Getting files into a cloud server][ec2-file-management]

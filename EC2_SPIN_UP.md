@@ -21,6 +21,20 @@
 ---
 
 ### **Next Steps**
-1. [Serve and app on your EC2 instance][serve-app]
+*It's recommended to follow the order but if you're brave enough you can jump to any of the relevant modules below*
 
-[serve-app]: https://github.com/Shinobi881/EC2-bare-bones/blob/master/EC2_SERVE.md
+- 1. [Shutting down][ec2-shutdown]
+- 2. [Restarting][ec2-restart]
+- 3. [Connecting][ec2-connection]
+- 4. [Deploying apps][ec2-deploy]
+- 5. [Getting files into a cloud server][ec2-file-management]
+- 6. [Basic security of a cloud server][ec2-security]
+
+[ec2-intro]: ./EC2_INTRO.md#definition-of-terms
+[ec2-spin-up]: ./EC2_SPIN_UP.md
+[ec2-shutdown]: ./EC2_SHUTDOWN.md
+[ec2-restart]: ./EC2_RESTART.md
+[ec2-connection]: ./EC2_CONNECTION.md.md
+[ec2-deploy]: ./EC2_DEPLOY.md
+[ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
+[ec2-security]: ./EC2_BASIC_SECURITY.md

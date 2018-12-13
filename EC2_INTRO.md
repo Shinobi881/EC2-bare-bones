@@ -10,11 +10,33 @@
 
     -- **'VPS'** (Virtual Private Server or "cloud server")
 
-    -- **'EC2'** (Elastic Compute Cloud (AWS name for VPS))
+    -- **'EC2'** (Elastic Compute Cloud)
 
     -- **'VM'** (Virtual Machine)
 
-    -- **'container'** 
+    -- **'container'**
+
+    -- **'instance'**
+
+- **EC2** - (Elastic Compute Cloud) Instance
+  - We'll say our 'EC2' or 'instance' or 'server'...
+  - The AWS implementation of a VPS
+  - It's basically a remote computer that we'll deploy our app to (like running localhost on our system)
+  - AWS will give us a public domain where we can make network requests and allow others to do so
+
+- **EBS** - (Elastic Block Storage) Volume
+  - We'll just refer to is a 'volume'
+  - Our computer needs a hard drive and this is it
+  - It's created automatically when we launch a new EC2 instance
+
+- **Private Key**
+  - `.pem` file that we'll use to authenticate and connect to our EC2 through `ssh`
+  - Also known as a "key pair"
+  - We have to make sure to download when we create it otherwise, it's gone forever
+  - This should be kept in a safe place
+  - Can be shared with others but there are better methods to allow others access which we won't cover here
+
+---
 
 ### **What is this all about**
   - Some stuff I think will improve development experience for web developers across the stack
@@ -48,13 +70,13 @@
   - 1. [Intro to EC2][ec2-intro] <= (you are here)
   - 2. [Spinning up][ec2-spin-up]
   - 3. [Shutting down][ec2-shutdown]
-  - 4. [Restarting][ec2-shutdown]
+  - 4. [Restarting][ec2-restart]
   - 5. [Connecting][ec2-connection]
   - 6. [Deploying apps][ec2-deploy]
   - 7. [Getting files into a cloud server][ec2-file-management]
   - 8. [Basic security of a cloud server][ec2-security]
 
-[ec2-intro]: ./EC2_INTRO.md#definition-of-terms
+[ec2-intro]: ./EC2_INTRO.md
 [ec2-spin-up]: ./EC2_SPIN_UP.md
 [ec2-shutdown]: ./EC2_SHUTDOWN.md
 [ec2-restart]: ./EC2_RESTART.md
