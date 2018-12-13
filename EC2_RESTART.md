@@ -1,4 +1,7 @@
 # EC2 Bare-Bones - Restarting your EC2 Instance
+*Steps to restart our instance may vary depending on how we shut it down*
+
+---
 
 ### **Stopped server instance**
   - **Volume still attached**
