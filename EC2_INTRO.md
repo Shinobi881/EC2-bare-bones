@@ -1,23 +1,21 @@
 # AWS Virtual Private Cloud Demo Introduction
 
-
-
 ### **Definition of terms**
 - **Virtual Private Cloud (VPC)** - 
-  - we could consider this to describe cloud services in general but we'll use it interchageably with *'virtual private server' (VPS)*, and AWS' *'elastic compute container' (EC2)* which is the **AWS** implemetation of a 'VPS'. 
+  - we could consider this to describe cloud services in general but we'll use it interchangeably with *'virtual private server' (VPS)*, and AWS' *'elastic compute container' (EC2)* which is the **AWS** implementation of a 'VPS'. 
   - In short, if I say *'VPC'*, *'VPS'*, *'EC2'* or *'container'* I'm talking about the same thing unless otherwise indicated.
 
 ### **What is this all about**
   - Some stuff I think will improve development experience for web developers across the spectrum.
   - AWS has some great tools but sometime the documentation can rabbit hole you
-  - There are some great AWS demos out there but this is targeted toward web devs
+  - There are some great AWS demos out there but this is targeted toward web developers
   - These are all meant to be as bare-bones and compartmentalized as possible, building toward more complex demos
 
 ### **Coverage -** *:latest*
 1. **AWS EC2 (Linux, Ubuntu)** - recommended minimum to setup, run and teardown
 2. **NodeJS** - running a Node app on you EC2 for the world to see (or not)
 
-### **Covreage -** *:backlog*
+### **Coverage -** *:backlog*
 1. **MongoDB** - running a database on and EC2 instance (for dev purposes)
 2. **Docker** - Dockerizing you app and running them on AWS EC2 as well as other vendors
 3. **Docker Compose** - composing multiple applications with Docker for dev and production purposes
