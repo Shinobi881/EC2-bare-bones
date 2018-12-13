@@ -1,4 +1,4 @@
-# AWS Virtual Private Cloud Demo Introduction
+# EC2 Bare-Bones - Just a bit of house-keeping
 
 ### **Definition of terms**
 - **Virtulization**
@@ -38,7 +38,7 @@
 
 ---
 
-### **What is this all about**
+### **What is this all about?**
   - Some stuff I think will improve development experience for web developers across the stack
   - AWS has some great tools but sometimes the documentation can rabbit hole you
   - There are some great AWS demos out there but this is targeted toward web developers
@@ -63,7 +63,7 @@
 
 ---
 
-### **Demos:**
+### **Next Steps**
 *The documentation and videos are meant to go hand in hand. I recommend viewing them in-order the first time then reference as needed. However, you should still be able to jump modules if you feel comfortable.*
 
 ---

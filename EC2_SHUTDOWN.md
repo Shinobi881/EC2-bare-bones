@@ -1,4 +1,4 @@
-# **EC2 Bare-Bones Cleanup and Teardown**
+# EC2 Bare-Bones - Cleanup and Teardown of our Instances and Volumes
 *This is especially important if you have other instances you keep running and you don't want to incur additional charges.*
 
 ---

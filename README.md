@@ -1,4 +1,4 @@
-# Bare-Bones cloud application server Demos
+# EC2 Bare-Bones - A Bare-Bones Approach to AWS for Web Developers
 *Getting started with AWS cloud servers (EC2) from the perspective of a web developer*
 
 ---
