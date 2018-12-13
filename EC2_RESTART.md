@@ -27,7 +27,7 @@
   - 4. [Basic security of a cloud server][ec2-security]
 
 
-[ec2-connection]: ./EC2_CONNECTION.md.md
+[ec2-connection]: ./EC2_CONNECTION.md
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md

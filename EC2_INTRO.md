@@ -80,7 +80,7 @@
 [ec2-spin-up]: ./EC2_SPIN_UP.md
 [ec2-shutdown]: ./EC2_SHUTDOWN.md
 [ec2-restart]: ./EC2_RESTART.md
-[ec2-connection]: ./EC2_CONNECTION.md.md
+[ec2-connection]: ./EC2_CONNECTION.md
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
