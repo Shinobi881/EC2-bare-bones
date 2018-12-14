@@ -7,7 +7,7 @@
 *- From `EC2 Dashboard` in the AWS console (click on the `EC2` link) -*
  - a. Select desired region from top right; `Oregon` for me
  - b. Select `Key Pairs` under `Network & Security` from the sidebar
- - c. Select `Create Key Pair` from top and give it a unique name; `ec2_demo` for me
+ - c. Select `Create Key Pair` from top and give it a unique name; `ec2_demo_key_OR` for me
  - d. Save to your `Desktop` **for now**
   
 ---
