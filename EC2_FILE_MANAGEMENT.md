@@ -42,5 +42,16 @@
 
   `$ scp -i "~/.ssh/ec2_demo_key_OR.pem" -r ./ec2_demo_folder ubuntu@ec2-34-214-180-254.us-west-2.compute.amazonaws.com:~`
 
+---
+
+### **Next Steps**
+*It's a good idea configure some very basic security*
+
+  - 1. [Let's get some basic security out of the way][ec2-security]
+  - 2. [Wrapping-up][ec2-wrap-up]
+
+[ec2-security]: ./EC2_BASIC_SECURITY.md
+[ec2-wrap-up]: ./EC2_WRAP_UP.md
+
 [ubuntu-scp-docs]: https://help.ubuntu.com/community/SSH/TransferFiles
 [ec2-connection]: ./EC2_CONNECTION.md

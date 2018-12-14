@@ -13,15 +13,39 @@
 
 ---
 
-### **Let's Connect**
-* Open a terminal instance on you local system with `ssh` capability. NOTE: we'll discuss `scp` later on*
+### **Let's get setup**
+*Open a terminal instance on you local system with `ssh` capability. NOTE: we'll discuss `scp` later on*
  - a. Get path to the `[key file name].pem` file and run `chmod 400 [path to file]`
  - b. From the EC2 Dashboard select the running instance and click `Connect`
- - c. From the popup copy the ssh command under `Example:`
- - b. Run `ssh -i "[key file name].pem" ubuntu@[Public DNS]`
- - e. Run `sudo su` to set yourself as the `root` or `super user`
- - f. Navigate the instance as you would from `Bash` on you Mac or a linux system
- - g. To exit, you can just close the terminal window or run the `exit` at the prompt(s) until you're out
+ - c. From the popup, copy the ssh command under `Example:`
+
+---
+
+### **Let's connect using SSH** (Secure Shell)**
+*We'll create an `ssh` connection to our running instance*
+  - **Connection string:** `$ scp -i "[path to .pem file]" ubuntu@[instance public address]`
+
+  - **Let's break this down:**
+    1. `ssh` - *Use the secure shell protocol*
+    2. `-i "~/.ssh/ec2_demo_key_OR.pem"` - *Use and provide an identity file for authorization*
+    3. `ubuntu@ec2-34-214-180-254.us-west-2.compute.amazonaws.com` - *Add the address to **YOUR** EC2 instance*
+
+  - **Looks like:**
+
+    `ssh -i "~/.ssh/ec2_demo_key_OR.pem" ubuntu@ec2-34-214-180-254.us-west-2.compute.amazonaws.com`
+
+  - **Connect:**
+    - Run the command above and type "yes" or "y" when prompted
+    - Once connect and at the remote terminal prompt run `who am i` (just for verification)
+    - Run `sudo su` ("do as super user, set user to super user")
+    - From here navigate the file system just as you would from your Bash prompt
+    - If you'd like you can create folders and play around a bit before moving on to the next module
+
+---
+
+### **Disconnecting from a remote session**
+  - The easiest way is to just close the terminal window that is connected
+  - Otherwise, keep running the `exit` command until you are back at your local system prompt
 
 ---
 

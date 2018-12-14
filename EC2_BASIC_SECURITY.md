@@ -21,6 +21,7 @@
 
 ### **Next Steps**
 *Thanks for watching just a last few things to mention*
+
   - 1. [Wrapping up with basic security and clean-up][ec2-wrap-up]
 
 [ec2-wrap-up]: ./EC2_WRAP_UP.md
