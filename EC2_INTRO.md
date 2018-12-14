@@ -36,6 +36,18 @@
   - This should be kept in a safe place
   - Can be shared with others but there are better methods to allow others access which we won't cover here
 
+- **Ubuntu**
+  - This is the Linux version OS that we'll launch our instances as
+  - The specific version will `Ubuntu Server 18.04 LTS (HVM)` which is in "Long Term Support"
+
+- **SSH** - [SSH Documentation][ssh-connection]
+  - Stands for "Secure Shell"
+  - This is a networking protocol for making secure connections to remote, shell instances
+
+- **SCP** - [SCP Documentation][scp-connection]
+  - Stands for "Secure Copy Protocol"
+  - This is a sub-protocol of `ssh` used to securely copy files and folders to remote instances
+
 ---
 
 ### **What is this all about?**
@@ -84,3 +96,6 @@
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
+
+[ssh-connection]: https://help.ubuntu.com/community/SSH/OpenSSH/ConnectingTo
+[scp-connection]: https://help.ubuntu.com/community/SSH/TransferFiles
