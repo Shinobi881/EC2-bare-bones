@@ -23,7 +23,7 @@
 
 ### **Let's connect using SSH** (Secure Shell)**
 *We'll create an `ssh` connection to our running instance*
-  - **Connection string:** `$ scp -i "[path to .pem file]" ubuntu@[instance public address]`
+  - **Connection string:** `$ ssh -i "[path to .pem file]" ubuntu@[instance public address]`
 
   - **Let's break this down:**
     1. `ssh` - *Use the secure shell protocol*
