@@ -8,13 +8,13 @@
 
 1. **OSX** - Mac's have `ssh` baked into our native terminal so you'll just need to open one
 2. **Linux** - if you're on Linux I assume you already know...(hint: go to your Linux CLi ^^^)
-3. **Windows < 10 or w/o Ubuntu for Windows** - You'll need to download `Putty` or another `ssh` client
+3. **Windows < 10 or w/o Ubuntu for Windows** - You'll need to [download][windows-ssh] `Putty` or another `ssh` client
 4. **Window 10 w/ Ubuntu** - Open an Ubuntu instance which should have ssh installed
 
 ---
 
 ### **Let's Connect**
-*- Open a terminal instance on you local system -*
+* Open a terminal instance on you local system with `ssh` capability. NOTE: we'll discuss `scp` later on*
  - a. Get path to the `[key file name].pem` file and run `chmod 400 [path to file]`
  - b. From the EC2 Dashboard select the running instance and click `Connect`
  - c. From the popup copy the ssh command under `Example:`
@@ -35,3 +35,5 @@
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
+
+[windows-ssh][https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/]
