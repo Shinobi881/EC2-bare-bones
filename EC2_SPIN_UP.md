@@ -36,7 +36,7 @@
 - 6. [Basic security of a cloud server][ec2-security]
 - 7. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones
 [ec2-shutdown]: ./EC2_SHUTDOWN.md
 [ec2-restart]: ./EC2_RESTART.md
 [ec2-connection]: ./EC2_CONNECTION.md

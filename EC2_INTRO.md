@@ -89,7 +89,7 @@
   - 8. [Basic security of a cloud server][ec2-security]
   - 9. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones
 [ec2-intro]: ./EC2_INTRO.md
 [ec2-spin-up]: ./EC2_SPIN_UP.md
 [ec2-shutdown]: ./EC2_SHUTDOWN.md

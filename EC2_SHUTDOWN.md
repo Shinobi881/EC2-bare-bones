@@ -28,5 +28,5 @@
 - 1. [Restarting your EC2 instance][ec2-restart]
 - 2. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones
 [ec2-restart]: ./EC2_RESTART.md

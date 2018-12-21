@@ -22,4 +22,4 @@
  
  - 1. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones

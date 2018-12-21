@@ -51,7 +51,7 @@
   - 2. [Wrapping-up][ec2-wrap-up]
   - 3. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones
 [ec2-security]: ./EC2_BASIC_SECURITY.md
 [ec2-wrap-up]: ./EC2_WRAP_UP.md
 

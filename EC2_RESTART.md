@@ -27,7 +27,7 @@
   - 4. [Basic security of a cloud server][ec2-security]
   - 5. [Home][ec2-home]
 
-[ec2-home]: ./
+[ec2-home]: https://github.com/Shinobi881/EC2-bare-bones
 [ec2-connection]: ./EC2_CONNECTION.md
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
