@@ -20,3 +20,6 @@
  - e. **Always** make sure you're in the desired availability zone so your not surprised by usage fees
  - f. Go back and give meaningful names to the services if you plan to keep using them
  
+ - 1. [Home][ec2-home]
+
+[ec2-home]: ./

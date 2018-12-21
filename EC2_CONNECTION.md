@@ -54,7 +54,9 @@
   - 1. [Deploying apps to a cloud server][ec2-deploy]
   - 2. [Getting files into a cloud server][ec2-file-management]
   - 3. [Basic security of a cloud server][ec2-security]
+  - 4. [Home][ec2-home]
 
+[ec2-home]: ./
 [ec2-deploy]: ./EC2_DEPLOY.md
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md

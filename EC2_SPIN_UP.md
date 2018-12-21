@@ -34,7 +34,9 @@
 - 4. [Deploying apps][ec2-deploy]
 - 5. [Getting files into a cloud server][ec2-file-management]
 - 6. [Basic security of a cloud server][ec2-security]
+- 7. [Home][ec2-home]
 
+[ec2-home]: ./
 [ec2-shutdown]: ./EC2_SHUTDOWN.md
 [ec2-restart]: ./EC2_RESTART.md
 [ec2-connection]: ./EC2_CONNECTION.md

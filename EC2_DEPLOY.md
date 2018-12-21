@@ -38,7 +38,9 @@
   - 1. [Getting files into a cloud server][ec2-file-management]
   - 2. [Let's get some basic security out of the way][ec2-security]
   - 3. [Wrapping-up][ec2-wrap-up]
+  - 4. [Home][ec2-home]
 
+[ec2-home]: ./
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
 [ec2-wrap-up]: ./EC2_WRAP_UP.md

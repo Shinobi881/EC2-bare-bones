@@ -26,5 +26,7 @@
 *If you plan to use the same instance an volume for the rest of the modules there's only one way to go*
 
 - 1. [Restarting your EC2 instance][ec2-restart]
+- 2. [Home][ec2-home]
 
+[ec2-home]: ./
 [ec2-restart]: ./EC2_RESTART.md

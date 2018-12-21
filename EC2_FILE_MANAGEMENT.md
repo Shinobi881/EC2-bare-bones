@@ -49,7 +49,9 @@
 
   - 1. [Let's get some basic security out of the way][ec2-security]
   - 2. [Wrapping-up][ec2-wrap-up]
+  - 3. [Home][ec2-home]
 
+[ec2-home]: ./
 [ec2-security]: ./EC2_BASIC_SECURITY.md
 [ec2-wrap-up]: ./EC2_WRAP_UP.md
 
