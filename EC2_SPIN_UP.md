@@ -17,7 +17,7 @@
  - a. Click `Launch Instance`
  - b. `Select`, `Ubuntu Server 18.04 LTS (HVM), SSD Volume Type`
  - c. Click the `Next:...` in the bottom right until you get to `Step 6: Configure Security Group`
- - d. Make sure `Create a new security group` is selcted
+ - d. Make sure `Create a new security group` is selected
  - e. In the `Type` dropdown select SSH and set the `Source` dropdown to `My IP`
  - f. `Add Rule` and select HTTP as the type
  - g. `Review and Launch` => `Launch`

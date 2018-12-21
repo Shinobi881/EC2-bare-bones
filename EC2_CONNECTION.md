@@ -8,7 +8,7 @@
 
 1. **OSX** - Mac's have `ssh` baked into our native terminal so you'll just need to open one
 2. **Linux** - if you're on Linux I assume you already know...(hint: go to your Linux CLi ^^^)
-3. **Windows < 10 or w/o Ubuntu for Windows** - You'll need to [download][windows-ssh] `Putty` or another `ssh` client
+3. **Windows < 10 or w/o Linux for Windows** - You'll need to [download and install `Putty`][install-putty] or another `ssh` client
 4. **Window 10 w/ Ubuntu** - Open an Ubuntu instance which should have ssh installed
 
 ---
@@ -40,7 +40,6 @@
     - Run `sudo su` ("do as super user, set user to super user")
     - From here navigate the file system just as you would from your Bash prompt
     - If you'd like you can create folders and play around a bit before moving on to the next module
-
 ---
 
 ### **Disconnecting from a remote session**
@@ -60,4 +59,4 @@
 [ec2-file-management]: ./EC2_FILE_MANAGEMENT.md
 [ec2-security]: ./EC2_BASIC_SECURITY.md
 
-[windows-ssh][https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/]
+[install-putty]: https://www.ssh.com/ssh/putty/windows/#sec-Getting-and-installing
