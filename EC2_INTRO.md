@@ -1,7 +1,7 @@
 # EC2 Bare-Bones - Just a bit of house-keeping
 
 ### **Definition of terms**
-- **Virtulization**
+- **Virtualization**
   - Let's keep it simple by saying virtualization is cloud resources that I connect to remotely
 
   - There's **MUCH** more to it all but for the sake of simplicity if I use any of the terms below I'm talking about the same thing unless otherwise noted:
