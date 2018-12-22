@@ -9,6 +9,13 @@
  - b. As the root user run the 2 commands under `# Using Debian, as root`
  - c. Test out some simple node commands to make sure everything was installed correctly
 
+### **Expose public `http` port**
+*We need to expose a server port to handle public http requests*
+  - a. From the `EC2 Dashboard` or sidebar select `Security Groups`
+  - b. Select the `ec2_demo_security_group_OR` and click `Edit` in the footer menu
+  - c. Click `Add Rule` in the popup menu
+  - d. Set the `Type` dropdown to `HTTP` and click `Save`
+
 ---
 
 ### **Create and run a Simple Express Server** - *Now it's actually a "server"*

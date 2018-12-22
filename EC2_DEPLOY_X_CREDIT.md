@@ -9,6 +9,7 @@ ___
  - a. Use the `disown` option: `node index.js & disown` => `ctrl + c`
  - b. See below on how to kill the background server process
 
+---
 
 ### **Kill the background server/process**
 *Since we're detached from the server instance we need to know how to find the process and kill it*

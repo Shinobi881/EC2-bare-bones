@@ -4,7 +4,7 @@
 ---
 
 ### **1. Create SSH Key**
-*- From `EC2 Dashboard` in the AWS console (click on the `EC2` link) -*
+*From `EC2 Dashboard` in the AWS console (click on the `EC2` link)*
  - a. Select desired region from top right; `Oregon` for me
  - b. Select `Key Pairs` under `Network & Security` from the sidebar
  - c. Select `Create Key Pair` from top and give it a unique name; `ec2_demo_key_OR` for me
@@ -18,10 +18,8 @@
  - b. `Select`, `Ubuntu Server 18.04 LTS (HVM), SSD Volume Type`
  - c. Click the `Next:...` in the bottom right until you get to `Step 6: Configure Security Group`
  - d. Make sure `Create a new security group` is selected
- - e. In the `Type` dropdown select SSH and set the `Source` dropdown to `My IP`
- - f. `Add Rule` and select HTTP as the type
- - g. `Review and Launch` => `Launch`
- - h. On the `Select an existing key pair...` popup, make sure that `ec2_demo` is selected, `Launch Instances`
+ - h. On the `Select an existing key pair...` popup, make sure that `ec2_demo_private_key_OR` is selected
+ - i. Check the confirmation checkbox and click `Launch Instances`
 
 ---
 
